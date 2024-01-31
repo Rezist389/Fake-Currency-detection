@@ -1,7 +1,7 @@
 
 # Docker container for Streamlit Web App of Fake Bank Note Detection
 
-#### Contributor(s): Shubham, Yash Sethia, Ritesh Kumar 
+#### Contributor: Rahul Sanjay Wankhede
 ![Picture](Homepage.jpg)
 
 ----------
@@ -11,8 +11,7 @@ https://fake-note-detector.herokuapp.com
 ### Production (Live)
 https://production-fake-note-detector.herokuapp.com
 
-### Docker Hub Repository
-https://hub.docker.com/r/tiwarishubham635/banknotedetector
+
 ### About
 
 Docker is a platform that allows users to easily pack, distribute, and manage applications within containers. It's an open-source project that automates the deployment of applications inside software containers. Gone are the days of an IT professional saying  "*Well, it worked on my machine.*" Not it works on all of our machines.
@@ -32,16 +31,6 @@ docker build -t money_api .
 Run the image locally in debug mode and expose ports 8501
 ```
 docker run -p 8501:8501 money_api
-```
-
-Push to docker hub account name/repository. This may take a few minutes
-```
-docker push tiwarishubham635/banknotedetector
-```
-
-The user can pull the docker image from the docker hub on their system using:
-```
-docker pull tiwarishubham635/banknotedetector
 ```
 Then using build and run, the docker image can be run locally.
 Further we have deployed this docker image on Heroku.
